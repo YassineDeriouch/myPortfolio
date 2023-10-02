@@ -33,7 +33,7 @@ function Home() {
                   <Type />
                 </div>
                 <div style={{ padding: 50, textAlign: "left", zIndex: 1 }}>
-                  <DownloadCV />
+                  <DownloadCV/>
                 </div>
               </Col>
 
