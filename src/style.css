@@ -11,12 +11,38 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  /*--imp-text-color: #c770f0;*/
+  --imp-text-color: #FC5292;
 }
 
 .purple {
   color: var(--imp-text-color) !important;
 }
+
+.blue {
+  color : rgb(170, 147, 255);
+}
+
+.orange {
+  color : #f59926;
+}
+
+.green {
+  color : #72b545;
+}
+
+.green2 {
+  color : #a0c039;
+}
+
+.red {
+  color : #dd0031;
+}
+
+.uir {
+  color : #d0d700;
+}
+
 
 button:focus {
   box-shadow: none !important;
@@ -115,7 +141,6 @@ button:focus {
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
   transition: transform 0.35s ease-in-out !important;
-  transition: transform 0.35s ease-in-out !important;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
@@ -155,7 +180,7 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
+  height: 2.7em !important;
   width: 2.5em !important;
 }
 
@@ -256,8 +281,10 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  z-index: 1;
+ /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg);*/
+  background-image: var(--section-background-color) !important;
+
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -305,6 +332,12 @@ button:focus {
   }
 }
 
+/* CSS file */
+.custom-button:hover {
+  background-color: var(--imp-text-color);
+  color: white;
+}
+
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
@@ -319,6 +352,8 @@ button:focus {
 
 .home-about-section {
   position: relative;
+  background-image: var(--section-background-color) !important;
+
   padding-bottom: 70px !important;
   padding-top: 70px !important;
 }
@@ -408,7 +443,7 @@ button:focus {
   padding-bottom: 8px !important ;
 }
 .footer-copywright {
-  text-align: center !important;
+  text-align: end !important;
 }
 
 .footer-body {
@@ -418,7 +453,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .footer-copywright {
-    text-align: center !important;
+    text-align: END !important;
   }
 
   .footer-body {
@@ -426,8 +461,8 @@ button:focus {
   }
 }
 
-.footer h3 {
-  font-size: 1em;
+.footer h5 {
+  font-size: 12px;
   color: white !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
@@ -572,8 +607,9 @@ button:focus {
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.06) !important;
   overflow: hidden !important;
+  box-shadow: 0px 12px 40px rgb(16, 16, 80) !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 .tech-icon-images {
@@ -622,6 +658,22 @@ button:focus {
 
 .resume-right {
   padding-left: 80px !important;
+}
+
+.primary_btn.tr-bg {
+  background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
+  border: 2px solid transparent;
+  color: #222222;
+  box-shadow: none; }
+.primary_btn.tr-bg:hover {
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+  border: double 2px transparent;
+  color: #ffffff;
+  box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3); }
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important
 }
 
 @media (max-width: 767px) {
