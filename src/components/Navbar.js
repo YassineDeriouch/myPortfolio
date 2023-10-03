@@ -6,16 +6,19 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/YY.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiOutlineUser, AiOutlineGithub
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+import {CgFileDocument, CgGitCommit} from "react-icons/cg";
+import {DiGithubFull} from "react-icons/di";
+import {FiGithub} from "react-icons/fi";
+import {RxGithubLogo} from "react-icons/rx";
+import {VscGithub} from "react-icons/vsc";
+import {PiGithubLogoFill} from "react-icons/pi";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -95,12 +98,11 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/YassineDeriouch/myPortfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <PiGithubLogoFill style={{ fontSize: "120%" }} />{" "}
               </Button>
             </Nav.Item>
           </Nav>
