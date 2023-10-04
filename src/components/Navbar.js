@@ -2,22 +2,16 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-//import logo from "../Assets/logo.png";
 import logo from "../Assets/YY.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser, AiOutlineGithub
+  AiOutlineUser,
 } from "react-icons/ai";
 
-import {CgFileDocument, CgGitCommit} from "react-icons/cg";
-import {DiGithubFull} from "react-icons/di";
-import {FiGithub} from "react-icons/fi";
-import {RxGithubLogo} from "react-icons/rx";
-import {VscGithub} from "react-icons/vsc";
+import {CgFileDocument} from "react-icons/cg";
 import {PiGithubLogoFill} from "react-icons/pi";
 
 function NavBar() {
