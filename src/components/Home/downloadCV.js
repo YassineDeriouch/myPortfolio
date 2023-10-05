@@ -34,8 +34,8 @@ function DownloadCV() {
     };
 
     const hoverStyles = {
-        backgroundColor: "#your-hover-color",
-        color: "#your-text-color",
+        backgroundColor: "#6600FF",
+        color: "#fff",
         /* Add any other styles you want to apply on hover */
     };
 
@@ -43,7 +43,7 @@ function DownloadCV() {
         <Button
             variant="light"
             onClick={handleDownloadClick}
-            className="custom-button"
+            className="btn-primary"
             style={buttonStyles}
            /* onMouseEnter={() => setButtonStyles(hoverStyles)}
             onMouseLeave={() => setButtonStyles(buttonStyles)}*/

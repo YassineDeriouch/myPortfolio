@@ -334,7 +334,8 @@ button:focus {
 
 /* CSS file */
 .custom-button:hover {
-  background-color: var(--imp-text-color);
+  /*background-color: var(--imp-text-color);*/
+  background-color: #6600ff;
   color: white;
 }
 
@@ -556,13 +557,15 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
+  /*background-color: #623686 !important;*/
+  background-color: #854fee !important;
   border-color: #623686 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
+  /*background-color: #6d20c5d7 !important;*/
+  background-color: #6600ff !important;
   border-color: #6d20c5d7 !important;
 }
 .btn:focus {
@@ -671,7 +674,7 @@ button:focus {
 .primary_btn.tr-bg:hover {
   background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
   border: double 2px transparent;
-  color: #ffffff;
+  color: #000000;
   box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3); }
 
 .align-items-center {

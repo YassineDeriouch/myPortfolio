@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ad5dc7-e738-428b-a3dd-9e148464587e" name="Changes" comment="changed icons + update README.md">
+    <list default="true" id="b4ad5dc7-e738-428b-a3dd-9e148464587e" name="Changes" comment="colors and preloader change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/pre.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/pre.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/downloadCV.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/downloadCV.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Resume/ResumeNew.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Resume/ResumeNew.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +50,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "C:/Users/yderi/Desktop/CS/portfolio/portfolio/public",
+    "last_opened_file_path": "C:/Users/yderi/Desktop/CS/ALX/AirBnB_clone",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,7 +86,8 @@
       <updated>1696290466873</updated>
       <workItem from="1696290472719" duration="1999000" />
       <workItem from="1696293439661" duration="8839000" />
-      <workItem from="1696378031844" duration="7579000" />
+      <workItem from="1696378031844" duration="8664000" />
+      <workItem from="1696465385246" duration="6328000" />
     </task>
     <task id="LOCAL-00001" summary="fix build errors">
       <option name="closed" value="true" />
@@ -102,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696303873894</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="colors and preloader change">
+      <option name="closed" value="true" />
+      <created>1696388502058</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696388502058</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +123,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fix build errors" />
     <MESSAGE value="changed icons + update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed icons + update README.md" />
+    <MESSAGE value="colors and preloader change" />
+    <option name="LAST_COMMIT_MESSAGE" value="colors and preloader change" />
   </component>
 </project>

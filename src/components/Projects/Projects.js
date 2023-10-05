@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import optimgov from "../../Assets/Projects/optimgov.png";
+import sms from "../../Assets/Projects/student-management-system.png";
 import store from "../../Assets/Projects/store.PNG";
 import clubs from "../../Assets/Projects/clubs.jpg";
-import suicide from "../../Assets/Projects/suicide.png";
+import ML from "../../Assets/Projects/Restaurant-Revenue-Prediction.png";
 import stage from "../../Assets/Projects/stage.png";
 
 function Projects() {
@@ -48,7 +48,7 @@ function Projects() {
             <ProjectCard
               imgPath={store}
               isBlog={false}
-              title="Shopping store"
+              title="E-commerce shopping store"
               description="Online E-commerce desktop application made to buy and sell products with tools
               to manages products, purchases and customers. This desktop application is made using Java with Swing library for GUI
               and MySQL DB"
@@ -58,37 +58,40 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={optimgov}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="GSM fleet and LAN connections system"
+              description="GSM fleet and LAN connections management system is an online web app module part of the inernal system of
+              Marrakech municipality, made in order to manage GSM fleet and LAN internet connections, monitor and manage operator invoices
+               and annual subscriptions by building an invoicing system as well as a small connection lines configuration and
+               parameterization system. Built using Spring-Boot, Hibernate/JPA and SQL Server for the backend REST API and
+               Angular with Material for Frontend side."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={sms}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Students management system"
+              description="This project has been made to manage students, built using Java's framework Struts2
+               and Hibernate ORM framework for data persistance with MySQL relational DB; As well as JSP and JSTL
+               with Bootstrap for the client side."
+              ghLink="https://github.com/YassineDeriouch/Gestion_etudiants"
             />
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
+          <ProjectCard
+              imgPath={ML}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+              title="Restaurant Revenue Prediction"
+              description=" Restaurant revenue prediction project using various Machine Learning models
+              to predict annual restaurant sales based on objective measurements made using jupyter notebook with python
+               ML models used : Linear Regression, KNN, Random Forest, LDA, SVM, Decision Tree, Naive Bayes, and Clustering."
+              ghLink="https://github.com/YassineDeriouch/Restaurant-Revenue-Prediction"
+          />
+        </Col>
         </Row>
       </Container>
     </Container>

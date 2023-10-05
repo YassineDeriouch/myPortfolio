@@ -32,7 +32,13 @@ function Home() {
                 <div className="purple" style={{ padding: 50, textAlign: "left" }} >
                   <Type />
                 </div>
-                <div style={{ padding: 50, textAlign: "left", zIndex: 1 }}>
+                <div style={{
+                  padding: 50,
+                  textAlign: "left",
+                  zIndex: 1,
+                  position: "relative",
+                }}
+                >
                   <DownloadCV/>
                 </div>
               </Col>
