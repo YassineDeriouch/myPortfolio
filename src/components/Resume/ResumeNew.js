@@ -30,14 +30,12 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Get my CV
           </Button>
-        </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
               variant="primary"
               href={pdf_frenchVersion}
               target="_blank"
-              style={{ maxWidth: "250px" }}
+              style={{ maxWidth: "250px",marginLeft: "30px" }}
           >
             <AiOutlineDownload />
             &nbsp;Get my CV - French version
