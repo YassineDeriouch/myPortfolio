@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/CV Yassine Deriouch (4).pdf";
+import pdf from "../../Assets/../Assets/Yassine Deriouch resume.pdf";
+import pdf_frenchVersion from "../../Assets/../Assets/CV Yassine Deriouch (4).pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -29,6 +30,19 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Get my CV
           </Button>
+        </Row>
+
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button
+              variant="primary"
+              href={pdf_frenchVersion}
+              target="_blank"
+              style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Get my CV - French version
+          </Button>
+          <Document file={pdf_frenchVersion} className="d-flex justify-content-center"></Document>
         </Row>
 
         <Row className="resume">

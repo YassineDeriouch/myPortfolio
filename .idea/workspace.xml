@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ad5dc7-e738-428b-a3dd-9e148464587e" name="Changes" comment="colors and preloader change">
+    <list default="true" id="b4ad5dc7-e738-428b-a3dd-9e148464587e" name="Changes" comment="projects update and UI changes">
+      <change afterPath="$PROJECT_DIR$/src/Assets/Yassine Deriouch resume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/downloadCV.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/downloadCV.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Resume/ResumeNew.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Resume/ResumeNew.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "C:/Users/yderi/Desktop/CS/ALX/AirBnB_clone",
+    "last_opened_file_path": "C:/Users/yderi/Desktop/CS/portfolio/portfolio/src/Assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +61,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yderi\Desktop\CS\portfolio\portfolio\src\Assets" />
       <recent name="C:\Users\yderi\Desktop\CS\portfolio\portfolio\public" />
     </key>
   </component>
@@ -87,7 +85,9 @@
       <workItem from="1696290472719" duration="1999000" />
       <workItem from="1696293439661" duration="8839000" />
       <workItem from="1696378031844" duration="8664000" />
-      <workItem from="1696465385246" duration="6328000" />
+      <workItem from="1696465385246" duration="6978000" />
+      <workItem from="1696618318480" duration="89000" />
+      <workItem from="1696823182225" duration="399000" />
     </task>
     <task id="LOCAL-00001" summary="fix build errors">
       <option name="closed" value="true" />
@@ -113,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696388502058</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="projects update and UI changes">
+      <option name="closed" value="true" />
+      <created>1696477220690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696477220690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,7 @@
     <MESSAGE value="fix build errors" />
     <MESSAGE value="changed icons + update README.md" />
     <MESSAGE value="colors and preloader change" />
-    <option name="LAST_COMMIT_MESSAGE" value="colors and preloader change" />
+    <MESSAGE value="projects update and UI changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="projects update and UI changes" />
   </component>
 </project>
