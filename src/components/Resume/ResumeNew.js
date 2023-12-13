@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Yassine Deriouch resume.pdf";
-import pdf_frenchVersion from "../../Assets/../Assets/CV Yassine Deriouch (4).pdf";
+import pdf_frenchVersion from "../../Assets/../Assets/CV Yassine Deriouch (8) V2.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";

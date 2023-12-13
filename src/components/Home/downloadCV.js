@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import pdf from "../../Assets/CV Yassine Deriouch (4).pdf";
+import pdf from "../../Assets/CV Yassine Deriouch (8) V2.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
 

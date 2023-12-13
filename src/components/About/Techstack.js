@@ -16,7 +16,7 @@ import {
 import {
     SiSpring,
     SiHibernate,
-    SiSpringboot, SiTypescript,
+    SiSpringboot, SiTypescript, SiNestjs,
 } from "react-icons/si";
 
 function Techstack() {
@@ -36,6 +36,9 @@ function Techstack() {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiNodejs/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiNestjs/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiTypescript/>
