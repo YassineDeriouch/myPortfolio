@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import optimgov from "../../Assets/Projects/optimgov.png";
 import sms from "../../Assets/Projects/student-management-system.png";
 import store from "../../Assets/Projects/store.PNG";
-import ClubsImg from "../../Assets/Projects/clubs.png";
+import ClubsImg from "../../Assets/Projects/ClubsImg.png";
 import ML from "../../Assets/Projects/Restaurant-Revenue-Prediction.png";
 import stage from "../../Assets/Projects/stage.png";
 
