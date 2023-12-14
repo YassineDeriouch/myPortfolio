@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import optimgov from "../../Assets/Projects/optimgov.png";
 import sms from "../../Assets/Projects/student-management-system.png";
 import store from "../../Assets/Projects/store.PNG";
-import ClubsImg from "../../Assets/Projects/ClubsImg.png";
+import img from "../../Assets/Projects/img.png";
 import ML from "../../Assets/Projects/Restaurant-Revenue-Prediction.png";
 import stage from "../../Assets/Projects/stage.png";
 
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ClubsImg}
+              imgPath={img}
               isBlog={false}
               title="Clubs UIR"
               description="Clubs UIR an online plateform dedicated to manage university clubs allowing students to create and join
