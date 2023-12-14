@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ad5dc7-e738-428b-a3dd-9e148464587e" name="Changes" comment="fixed Get My CV buttons">
-      <change afterPath="$PROJECT_DIR$/src/Assets/CV Yassine Deriouch (8) V2.pdf" afterDir="false" />
+    <list default="true" id="b4ad5dc7-e738-428b-a3dd-9e148464587e" name="Changes" comment="cv update, style mods">
+      <change afterPath="$PROJECT_DIR$/src/Assets/Projects/ClubsImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Projects/clubs.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/CV Yassine Deriouch (4).pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About/AboutCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/AboutCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About/Techstack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Techstack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Type.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Type.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/downloadCV.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/downloadCV.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Resume/ResumeNew.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Resume/ResumeNew.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +99,9 @@
       <workItem from="1696465385246" duration="6978000" />
       <workItem from="1696618318480" duration="89000" />
       <workItem from="1696823182225" duration="1300000" />
-      <workItem from="1702395717144" duration="6619000" />
+      <workItem from="1702395717144" duration="6730000" />
+      <workItem from="1702466162190" duration="2932000" />
+      <workItem from="1702545328483" duration="1571000" />
     </task>
     <task id="LOCAL-00001" summary="fix build errors">
       <option name="closed" value="true" />
@@ -145,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696824268252</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cv update, style mods">
+      <option name="closed" value="true" />
+      <created>1702440035695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702440035695</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +173,7 @@
     <MESSAGE value="projects update and UI changes" />
     <MESSAGE value="update CV section" />
     <MESSAGE value="fixed Get My CV buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed Get My CV buttons" />
+    <MESSAGE value="cv update, style mods" />
+    <option name="LAST_COMMIT_MESSAGE" value="cv update, style mods" />
   </component>
 </project>

@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import optimgov from "../../Assets/Projects/optimgov.png";
 import sms from "../../Assets/Projects/student-management-system.png";
 import store from "../../Assets/Projects/store.PNG";
-import clubs from "../../Assets/Projects/clubs.jpg";
+import ClubsImg from "../../Assets/Projects/clubs.png";
 import ML from "../../Assets/Projects/Restaurant-Revenue-Prediction.png";
 import stage from "../../Assets/Projects/stage.png";
 
@@ -23,24 +23,13 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={clubs}
+              imgPath={ClubsImg}
               isBlog={false}
               title="Clubs UIR"
               description="Clubs UIR an online plateform dedicated to manage university clubs allowing students to create and join
                clubs and administrations staff to manage clubs and membres;
                made using Spring Boot, MySQL DB for backend and Angular, Bootstrap for frontend"
               ghLink="https://github.com/YassineDeriouch/Gestion-Clubs-UIR-Frontend"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={stage}
-              isBlog={false}
-              title="Stages UIR"
-              description="Stages UIR is an Android mobile application made as a project for the university to manage students internships,
-              built using Spring Boot and MySQL for backend and Android client with retrofit2 using java for android "
-              ghLink="https://github.com/YassineDeriouch/gestion-Stages-Android"
             />
           </Col>
 
@@ -56,6 +45,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={stage}
+                isBlog={false}
+                title="Stages UIR"
+                description="Stages UIR is an Android mobile application made as a project for the university to manage students internships,
+              built using Spring Boot and MySQL for backend and Android client with retrofit2 using java for android "
+                ghLink="https://github.com/YassineDeriouch/gestion-Stages-Android"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={optimgov}

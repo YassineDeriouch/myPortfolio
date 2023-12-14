@@ -18,7 +18,7 @@ function Home() {
             <Row>
               <Col md={7} className="home-header">
                 <h1 style={{ paddingBottom: 15 }} className="heading">
-                  Hi There!{" "}
+                  Hello stranger!{" "}
                   <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -71,7 +71,7 @@ function Home() {
                   <br />
                   My field of interests are making new &nbsp;
                   <i>
-                    <b className="blue">software technologies and features </b> and
+                    <b className="purple">software technologies and features </b> and
                     also in areas related to{" "}
                     <b className="purple">
                       game industry.
@@ -79,8 +79,8 @@ function Home() {
                   </i>
                   <br />
                   <br />
-                  Usually I spend my time discovering new technologies and building apps with  <b className="orange">Java </b>
-                  and <b className="green">nodeJS</b> with their
+                  Usually I spend my time discovering new technologies and building apps with  <b className="purple">Java </b>
+                  and <b className="purple">nodeJS</b> with their
                   <i>
                     <b className="purple">
                       {" "}
@@ -89,9 +89,9 @@ function Home() {
                   </i>
                   &nbsp; like
                   <i>
-                    <b className="green"> Spring Boot, </b>
-                    <b className="red"> Angular, </b>
-                    <b className="green2"> Android java </b>
+                    <b className="purple"> Spring Boot, </b>
+                    <b className="purple"> Angular, </b>
+                    <b className="purple"> Android java </b>
                   </i>
                 </p>
               </Col>

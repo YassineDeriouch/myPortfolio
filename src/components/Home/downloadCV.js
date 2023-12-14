@@ -45,8 +45,6 @@ function DownloadCV() {
             onClick={handleDownloadClick}
             className="btn-primary"
             style={buttonStyles}
-           /* onMouseEnter={() => setButtonStyles(hoverStyles)}
-            onMouseLeave={() => setButtonStyles(buttonStyles)}*/
         >
             <AiOutlineDownload />
             &nbsp;Get my CV

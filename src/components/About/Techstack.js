@@ -11,7 +11,7 @@ import {
     DiBootstrap,
     DiAndroid,
     DiMysql,
-    DiMsqlServer
+    DiMsqlServer, DiFirebase
 } from "react-icons/di";
 import {
     SiSpring,
@@ -69,6 +69,9 @@ function Techstack() {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiGit/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiFirebase/>
             </Col>
 
         </Row>
