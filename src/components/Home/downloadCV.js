@@ -31,17 +31,16 @@ function DownloadCV() {
 
     const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-    const handleDownloadClick = async (file) => {
+    const handleDownloadClick = async (pdfFile,FileName) => {
         try {
-            const response = await fetch(file);
+            const response = await fetch(pdfFile);
             const blob = await response.blob();
             const url = window.URL.createObjectURL(blob);
             const a = document.createElement("a");
 
-            const FileName = file.files[0].name;
-            console.log("FileName: " + FileName);
-            a.href = url;
+
             a.download = FileName;
+            a.href = url;
             document.body.appendChild(a);
             a.click();
             window.URL.revokeObjectURL(url);
@@ -52,9 +51,9 @@ function DownloadCV() {
     };
 
     const downloadCV = async () => {
-        await handleDownloadClick(CV_FR);
+        await handleDownloadClick(CV_FR,"CV Yassine Deriouch FR.pdf");
         await delay(2500);
-        await handleDownloadClick(CV_EN);
+        await handleDownloadClick(CV_EN,"CV Yassine Deriouch EN.pdf");
         console.log("Both downloads completed");
     };
 
