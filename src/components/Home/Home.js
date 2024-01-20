@@ -25,7 +25,7 @@ function Home() {
                 </h1>
 
                 <h1 className="heading-name">
-                  I'M
+                  I'm
                   <strong className="purple"> Yassine Deriouch</strong>
                 </h1>
 
@@ -60,12 +60,12 @@ function Home() {
                 <p className="home-about-body">
                   23 years old Moroccan Java Fullstack developer
                   and software engineering student at
-                  the University International of Rabat,
+                  the International University of Rabat,
                   software development and tech enthusiast.
                   <br />
-                  <br />I am fluent in classics like
+                  <br />I am fluent in technologies like
                   <i>
-                    <b className="purple"> Java, TypeScript, C, SQL etc. </b>
+                    <b className="purple"> Java, Spring Boot, Angular, SQL etc. </b>
                   </i>
                   <br />
                   <br />

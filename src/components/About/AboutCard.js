@@ -13,7 +13,7 @@ function AboutCard() {
             I am <span className="purple"><b>Yassine Deriouch</b> </span>
             from <span className="purple"> <b>Rabat, MOROCCO, </b></span>
              a passionate software engineer 💻 at the
-            <span><b className="uir">  Internationale University of Rabat .</b></span>
+            <span><b className="uir">  International University of Rabat .</b></span>
             <br />
             <br />
             As part of my goals, I'm focusing on enhancing my programming skills in Backend technologies

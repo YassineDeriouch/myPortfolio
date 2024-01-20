@@ -26,10 +26,10 @@ function Projects() {
               imgPath={img}
               isBlog={false}
               title="Clubs UIR"
-              description="Clubs UIR an online plateform dedicated to manage university clubs allowing students to create and join
+              description="Clubs UIR is an online plateform dedicated to manage university clubs allowing students to create and join
                clubs and administrations staff to manage clubs and membres;
                made using Spring Boot, MySQL DB for backend and Angular, Bootstrap for frontend"
-              ghLink="https://github.com/YassineDeriouch/Gestion-Clubs-UIR-Frontend"
+              ghLink="https://github.com/YassineDeriouch/ClubsUIR_API"
             />
           </Col>
 
