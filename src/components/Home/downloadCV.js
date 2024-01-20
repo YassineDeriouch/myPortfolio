@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import pdf from "../../Assets/CV Yassine Deriouch (8) V2.pdf";
+import CV_FR from "../../Assets/CV Yassine Deriouch (8) V2.pdf";
+import CV_EN from "../../Assets/Yassine Deriouch - Resume (8).pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
 
@@ -10,8 +11,8 @@ function DownloadCV() {
         setWidth(window.innerWidth);
     }, []);
 
-    const handleDownloadClick = () => {
-        fetch(pdf)
+/*    const handleDownloadClick = () => {
+        fetch(CV_FR)
             .then((response) => response.blob())
             .then((blob) => {
                 const url = window.URL.createObjectURL(blob);
@@ -26,7 +27,37 @@ function DownloadCV() {
             .catch((error) => {
                 console.error("Error downloading CV:", error);
             });
+    };*/
+
+    const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+    const handleDownloadClick = async (file) => {
+        try {
+            const response = await fetch(file);
+            const blob = await response.blob();
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement("a");
+
+            const FileName = file.files[0].name;
+            console.log("FileName: " + FileName);
+            a.href = url;
+            a.download = FileName;
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+
+        } catch (error) {
+            console.error("Error downloading file:", error);
+        }
     };
+
+    const downloadCV = async () => {
+        await handleDownloadClick(CV_FR);
+        await delay(2500);
+        await handleDownloadClick(CV_EN);
+        console.log("Both downloads completed");
+    };
+
 
     const buttonStyles = {
         maxWidth: "150px",
@@ -42,7 +73,7 @@ function DownloadCV() {
     return (
         <Button
             variant="light"
-            onClick={handleDownloadClick}
+            onClick={downloadCV}
             className="btn-primary"
             style={buttonStyles}
         >

@@ -18,9 +18,9 @@ function AboutCard() {
             <br />
             As part of my goals, I'm focusing on enhancing my programming skills in Backend technologies
             such as <span className="purple"> <b>java/JEE </b></span>
-            and it's frameworks as well as frontend technologies including <span className="purple"> <b>Angular </b></span>
-            and <span className="purple"> <b>Bootstrap</b></span>.
-            Additionally, I am actively trying to improve my soft skills and communication .
+            and it's frameworks as well as Frontend technologies including <span className="purple"> <b>Angular </b></span>
+            <span className="purple"> <b>AngularMaterial</b></span> and <span className="purple"> <b>Bootstrap</b></span>.
+            Additionally, I am actively trying to improve my soft-skills and communication .
             <br />
             <br />
             Other than coding, I love to

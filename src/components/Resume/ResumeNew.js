@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Yassine Deriouch resume.pdf";
+import pdf from "../../Assets/../Assets/Yassine Deriouch - Resume (8).pdf";
 import pdf_frenchVersion from "../../Assets/CV Yassine Deriouch (8) V2.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
