@@ -52,7 +52,7 @@ function DownloadCV() {
 
     const downloadCV = async () => {
         await handleDownloadClick(CV_FR,"CV Yassine Deriouch FR.pdf");
-        await delay(2500);
+        await delay(1000);
         await handleDownloadClick(CV_EN,"CV Yassine Deriouch EN.pdf");
         console.log("Both downloads completed");
     };
