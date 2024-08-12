@@ -58,7 +58,7 @@ function Home() {
                   LET ME <span className="purple"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                  23 years old Moroccan Java Fullstack developer
+                  {ageUpdater()} years old Moroccan Java Fullstack developer
                   and software engineering student at
                   the International University of Rabat,
                   software development and tech enthusiast.
@@ -136,5 +136,22 @@ function Home() {
       </section>
   );
 }
+
+function ageUpdater() {
+  let bdayDate = new Date("2000/03/17");
+  let currentDate = new Date();
+
+  let age = currentDate.getFullYear() - bdayDate.getFullYear();
+  let monthDiff = currentDate.getMonth() - bdayDate.getMonth();
+  let dayDiff = currentDate.getDate() - bdayDate.getDate();
+
+  if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+    age--;
+  }
+  console.log("age: " + age);
+  return age;
+}
+
+
 
 export default Home;
