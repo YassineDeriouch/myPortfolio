@@ -1,49 +1,60 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-    SiVisualstudiocode,
-    SiPostman,
-    SiWindows,
-    SiLinux,
-    SiIntellijidea,
-    SiSwagger,
-    SiApachetomcat,
     SiGradle,
     SiApachemaven,
 } from "react-icons/si";
+import StackIcon from "tech-stack-icons";
 
 function Toolstack() {
-  return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+    return (
+        <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
+            {/*<Col xs={4} md={2} className="tech-icons">
         <SiWindows />
       </Col>
         <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
-      </Col>
-        <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSwagger />
-      </Col>
-        <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiApachetomcat />
-      </Col>
-        <Col xs={4} md={2} className="tech-icons">
-        <SiGradle />
-      </Col>
-        <Col xs={4} md={2} className="tech-icons">
-        <SiApachemaven />
-      </Col>
-    </Row>
-  );
+      </Col>*/}
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={"https://icon.icepanel.io/Technology/svg/IntelliJ-IDEA.svg"}
+                     style={{width: '75px'}}
+                     alt={'intellij'}/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={"https://icon.icepanel.io/Technology/svg/WebStorm.svg"}
+                     style={{width: '75px'}}
+                     alt={'intellij'}/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <StackIcon name="swagger" style={{width: '75px'}}/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <StackIcon name="postman" style={{width: '75px'}}/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <StackIcon name="apache" style={{width: '75px'}}/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={"https://icon.icepanel.io/Technology/png-shadow-512/Gradle.png"}
+                     style={{width: '75px'}}
+                     alt={'gradle'}/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={"https://icon.icepanel.io/Technology/svg/Apache-Maven.svg"}
+                     style={{width: '75px'}}
+                     alt={'maven'}/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <StackIcon name="npm2" style={{width: '75px'}}/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <StackIcon name="git" style={{width: '75px'}}/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <StackIcon name="github" style={{width: '75px'}}/>
+            </Col>
+        </Row>
+    );
 }
 
 export default Toolstack;

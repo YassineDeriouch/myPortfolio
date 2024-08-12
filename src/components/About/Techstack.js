@@ -1,79 +1,59 @@
 import React from "react";
 import {Col, Row} from "react-bootstrap";
-import {
-    DiNodejs,
-    DiMongodb,
-    DiGit,
-    DiJava,
-    DiAngularSimple,
-    DiHtml5,
-    DiCss3,
-    DiBootstrap,
-    DiAndroid,
-    DiMysql,
-    DiMsqlServer, DiFirebase
-} from "react-icons/di";
-import {
-    SiSpring,
-    SiHibernate,
-    SiSpringboot, SiTypescript, SiNestjs,
-} from "react-icons/si";
+import StackIcon from "tech-stack-icons";
 
 function Techstack() {
     return (
         <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
             <Col xs={4} md={2} className="tech-icons">
-                <DiJava/>
+                <StackIcon name="java" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiSpring/>
+                <StackIcon name="spring" style={{ width: '75px' }}/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiSpringboot/>
+                <StackIcon name="angular17" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiAngularSimple/>
+                <StackIcon name="nodejs" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiNodejs/>
+                <StackIcon name="nestjs" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiNestjs/>
+                <StackIcon name="typescript" style={{ width: '75px' }}/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiTypescript/>
+                <StackIcon name="html5" style={{ width: '75px' }}/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiHtml5/>
+                <StackIcon name="css3" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiCss3/>
+                <StackIcon name="bootstrap5" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiBootstrap/>
+                <img src={"https://www.primefaces.org/wp-content/uploads/2018/05/primeng-logo.png"}
+                     style={{width: '75px'}}
+                     alt={'primeNG'}/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiAndroid/>
+                <StackIcon name="android" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiMongodb/>
+                <StackIcon name="mongodb" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiMysql/>
+                <StackIcon name="mysql" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiMsqlServer/>
+                <StackIcon name="postgresql" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiHibernate/>
+                <img src={"https://icon.icepanel.io/Technology/svg/Hibernate.svg"}
+                     style={{width: '75px'}}
+                     alt={'HIBERNATE'}/>
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
-                <DiGit/>
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-                <DiFirebase/>
-            </Col>
-
         </Row>
     );
 }
