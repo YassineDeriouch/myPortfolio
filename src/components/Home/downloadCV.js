@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import CV_FR from "../../Assets/CV Yassine Deriouch (8) V2.pdf";
-import CV_EN from "../../Assets/Yassine Deriouch - Resume (8).pdf";
+import CV_FR from "../../Assets/CV Yassine Deriouch (FR).pdf";
+import CV_EN from "../../Assets/Yassine Deriouch - Resume .pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
 
