@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import optimgov from "../../Assets/Projects/optimgov.png";
-import sms from "../../Assets/Projects/student-management-system.png";
+import moviesLib from "../../Assets/Projects/moviesLibrary.PNG";
 import store from "../../Assets/Projects/store.PNG";
-import img from "../../Assets/Projects/img.png";
-import ML from "../../Assets/Projects/Restaurant-Revenue-Prediction.png";
+import clubUIR from "../../Assets/Projects/clubUIR.png";
+import devstuff from "../../Assets/Projects/devstuff logo.png";
 import stage from "../../Assets/Projects/stage.png";
 
 function Projects() {
@@ -18,12 +18,12 @@ function Projects() {
           My Recent <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={img}
+              imgPath={clubUIR}
               isBlog={false}
               title="Clubs UIR"
               description="Clubs UIR is an online plateform dedicated to manage university clubs allowing students to create and join
@@ -64,31 +64,37 @@ function Projects() {
               Marrakech municipality, made in order to manage GSM fleet and LAN internet connections, monitor and manage operator invoices
                and annual subscriptions by building an invoicing system as well as a small connection lines configuration and
                parameterization system. Built using Spring-Boot, Hibernate/JPA and SQL Server for the backend REST API and
-               Angular with Material for Frontend side."
+               Angular with Material for Frontend client."
+              ghLink="https://github.com/YassineDeriouch/gestion_GSM_LAN_2"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sms}
+              imgPath={moviesLib}
               isBlog={false}
-              title="Students management system"
-              description="This project has been made to manage students, built using Java's framework Struts2
-               and Hibernate ORM framework for data persistance with MySQL relational DB; As well as JSP and JSTL
-               with Bootstrap for the client side."
-              ghLink="https://github.com/YassineDeriouch/Gestion_etudiants"
+              title="Movies Library"
+              description="Movies library project display movies titles and their informations,
+               classified by different categories and imported from IMBD dataset.
+               Provides a secure admin panel with JWT login system, to dynamically manage and import new movies through csv files.
+               Made using Java with Spring Boot, MySQL RDBMS and Angular with Bootstrap as a UI framework. "
+              ghLink="https://github.com/YassineDeriouch/MoviesLibrary_API_V1/"
             />
           </Col>
 
           <Col md={4} className="project-card">
           <ProjectCard
-              imgPath={ML}
+              imgPath={devstuff}
               isBlog={false}
-              title="Restaurant Revenue Prediction"
-              description=" Restaurant revenue prediction project using various Machine Learning models
-              to predict annual restaurant sales based on objective measurements made using jupyter notebook with python
-               ML models used : Linear Regression, KNN, Random Forest, LDA, SVM, Decision Tree, Naive Bayes, and Clustering."
-              ghLink="https://github.com/YassineDeriouch/Restaurant-Revenue-Prediction"
+              title="devStuff Project"
+              description="devStuff project is web based platform that aims to share developement related tools that could be usefull
+              for developers, for ease of navigation, each tool is classified by one or many categories.
+              The app offers administration and moderation space for dynamic management,
+               as well as a regular user can join the moderation staff to contribute with the team.
+               The login system is powered by JWT authorization, as well as it will be accessible via social media provider like
+               google, github and facebook. Moreover the app will have more amazing features as it is still in developement phase.
+               Backend Techstack: Spring Boot and PostgreSQL."
+              ghLink="https://github.com/YassineDeriouch/devStuff"
           />
         </Col>
         </Row>
