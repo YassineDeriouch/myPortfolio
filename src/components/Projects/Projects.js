@@ -93,7 +93,8 @@ function Projects() {
                as well as a regular user can join the moderation staff to contribute with the team.
                The login system is powered by JWT authorization, as well as it will be accessible via social media provider like
                google, github and facebook. Moreover the app will have more amazing features as it is still in developement phase.
-               Backend Techstack: Spring Boot and PostgreSQL."
+               Backend Techstack: Spring Boot with Maven and PostgreSQL,
+               Frontend Techstack: Vue 3 with Typescript and Daisy UI + TailwindCSS."
               ghLink="https://github.com/YassineDeriouch/devStuff"
           />
         </Col>
