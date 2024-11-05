@@ -1,9 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-    SiGradle,
-    SiApachemaven,
-} from "react-icons/si";
 import StackIcon from "tech-stack-icons";
 
 function Toolstack() {
@@ -51,10 +47,13 @@ function Toolstack() {
                 <StackIcon name="git" style={{width: '75px'}}/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <StackIcon name="github" style={{width: '75px'}}/>
+                <img src={"https://www.tech-stack-icons.com/assets/dark/github.svg"}
+                style={{width: '75px'}}
+                alt={'github'}/>
             </Col>
         </Row>
     );
 }
+
 
 export default Toolstack;
