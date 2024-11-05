@@ -87,15 +87,15 @@ function Projects() {
               imgPath={devstuff}
               isBlog={false}
               title="devStuff Project"
-              description="devStuff project is web based platform that aims to share developement related tools that could be usefull
-              for developers, for ease of navigation, each tool is classified by one or many categories.
-              The app offers administration and moderation space for dynamic management,
-               as well as a regular user can join the moderation staff to contribute with the team.
-               The login system is powered by JWT authorization, as well as it will be accessible via social media provider like
-               google, github and facebook. Moreover the app will have more amazing features as it is still in developement phase.
-               Backend Techstack: Spring Boot with Maven and PostgreSQL,
-               Frontend Techstack: Vue 3 with Typescript and Daisy UI + TailwindCSS."
-              ghLink="https://github.com/YassineDeriouch/devStuff"
+              description="devStuff project is web based platform that aims to provide a large library of
+              developement related tools that could be usefull for developers.
+              The app offers a large choice of classification and filters for ease of navigation
+              as well as administration and moderation dashboards for dynamic management and monitoring.
+              The login system is powered by JWT authorization, as well as it will be accessible via social media providers like
+              google, github and facebook. Moreover the app will have more amazing features as it is still under developement."
+              techstack="The app is being built using Spring Boot with Maven and PostgreSQL for the Backend and API, along with
+              Vue 3 with Typescript and Daisy UI + TailwindCSS + PrimeVue for the Frontend."
+             ghLink="https://github.com/YassineDeriouch/devStuff"
           />
         </Col>
         </Row>
