@@ -69,30 +69,12 @@ function Home() {
                   </i>
                   <br />
                   <br />
-                  My field of interests are making new &nbsp;
-                  <i>
-                    <b className="purple">software technologies and features </b> and
-                    also in areas related to{" "}
-                    <b className="purple">
-                      game industry.
-                    </b>
-                  </i>
+                  My field of interests is focused in building&nbsp;
+                  high quality software solutions and come up with creative and innovative ideas.
                   <br />
                   <br />
-                  Usually I spend my time discovering new technologies and building apps with  <b className="purple">Java </b>
-                  and <b className="purple">nodeJS</b> with their
-                  <i>
-                    <b className="purple">
-                      {" "}
-                      modern Frameworks and tools
-                    </b>
-                  </i>
-                  &nbsp; like
-                  <i>
-                    <b className="purple"> Spring Boot, </b>
-                    <b className="purple"> Angular, </b>
-                    <b className="purple"> Android java </b>
-                  </i>
+                  Usually I spend my time discovering new technologies, software architectures, and building apps with my favorite technologies e.g
+                  <b className="purple"> Java with Spring Boot, Angular, Vue 3, NestJS ...</b>
                 </p>
               </Col>
               <Col md={4} className="myAvtar">
