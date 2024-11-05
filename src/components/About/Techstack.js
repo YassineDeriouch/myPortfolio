@@ -15,6 +15,9 @@ function Techstack() {
                 <StackIcon name="angular17" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
+                <StackIcon name="vuejs" style={{ width: '75px' }} />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
                 <StackIcon name="nodejs" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
@@ -33,8 +36,11 @@ function Techstack() {
                 <StackIcon name="bootstrap5" style={{ width: '75px' }} />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <img src={"https://www.primefaces.org/wp-content/uploads/2018/05/primeng-logo.png"}
-                     style={{width: '75px'}}
+                <StackIcon name="tailwindcss" style={{ width: '75px' }} />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={"https://www.primefaces.org/wp-content/uploads/2018/05/primefaces-logo.png"}
+                     style={{width: '100%'}}
                      alt={'primeNG'}/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
@@ -53,6 +59,11 @@ function Techstack() {
                 <img src={"https://icon.icepanel.io/Technology/svg/Hibernate.svg"}
                      style={{width: '75px'}}
                      alt={'HIBERNATE'}/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={"https://avatars.githubusercontent.com/u/20165699?s=200&v=4"}
+                     style={{width: '95px'}}
+                     alt={'typeORM'}/>
             </Col>
         </Row>
     );
