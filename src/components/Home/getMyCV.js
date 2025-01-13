@@ -5,7 +5,11 @@ import Button from "react-bootstrap/Button";
 function GetMyCV() {
 
     //////////////////// mega cloud file sharing (link)////////////////////////
+    //mega nz link:
     const sharedLink = "https://mega.nz/folder/ZUFiAbjC#XqQOzTN91PAuy43S2cOpBA"
+
+    //alternative google drive like
+    //const sharedLink = "https://drive.google.com/drive/folders/1eGYYXUqX2I_-fbHYMVX6nprLw9q34SV7?usp=sharing"
 
     const formatUrl = (url) => {
             if (!url.startsWith('http://') && !url.startsWith('https://')) {
