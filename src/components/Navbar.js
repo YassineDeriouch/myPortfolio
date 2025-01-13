@@ -11,7 +11,6 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import {CgFileDocument} from "react-icons/cg";
 import {PiGithubLogoFill} from "react-icons/pi";
 
 function NavBar() {
