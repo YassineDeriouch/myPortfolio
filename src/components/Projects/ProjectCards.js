@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import { Card, Button, OverlayTrigger, Tooltip } from "react-bootstrap";
 import { BsGithub } from "react-icons/bs";
+import {techStackData} from "./TechstackData";
 
 function extractRepoMetadataFromURL(ghLink) {
 
@@ -38,15 +39,31 @@ function ProjectCards(props) {
         }
     }, [props.ghLink]);
 
+    const { techStackValues = [] } = props;
 
+    const selectedTechStack = techStackValues
+        .filter((tech) => techStackData[tech])
+        .map((tech) => ({
+            name: tech,
+            iconUrl: techStackData[tech],
+        }));
     return (
         <Card className="project-card-view">
             <Card.Img variant="top" src={props.imgPath} alt="card-img" />
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
+                <div style={{ display: 'flex', justifyContent : 'space-evenly', gap: '3px', marginBottom: '10px' }}>
+                    {selectedTechStack.map((tech, index) => (
+                        <img
+                            key={index}
+                            src={tech.iconUrl}
+                            alt={tech.name}
+                            style={{ width: '24px', height: '24px' }}
+                        />
+                    ))}
+                </div>
                 <Card.Text style={{ textAlign: "justify", whiteSpace: "pre-line" }}>
                     {props.description}{"\n"}
-                    {props.techstack}
                 </Card.Text>
 
                 <OverlayTrigger
@@ -84,5 +101,7 @@ function ProjectCards(props) {
         </Card>
     );
 }
-
+ProjectCards.defaultProps = {
+    techStackValues: []
+};
 export default ProjectCards;
