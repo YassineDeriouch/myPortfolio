@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Type from "./Type";
-import DownloadCV from "./downloadCV";
+import GetMyCV from "./getMyCV";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
@@ -39,7 +39,7 @@ function Home() {
                   position: "relative",
                 }}
                 >
-                  <DownloadCV/>
+                  <GetMyCV/>
                 </div>
               </Col>
 
